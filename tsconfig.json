@@ -1,0 +1,3 @@
+{
+  "extends": "@rjgfny/config/typescript/vue-app"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "project-management",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "description": "项目管理平台 - 统一管理所有子项目",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc -b --pretty false",
+    "lint": "eslint . --ext .ts,.tsx,.vue",
+    "lint:fix": "eslint . --ext .ts,.tsx,.vue --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.0",
+    "@rjgfny/shared": "^0.1.0",
+    "@rjgfny/ui-pro": "^0.1.1",
+    "@rjgfny/utils": "file:../../rjgfCode/rjgfNYUtils",
+    "ant-design-vue": "^4.2.6",
+    "axios": "^1.8.2",
+    "pinia": "^2.2.0",
+    "vue": "^3.4.38",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.0",
+    "@rjgfny/config": "^0.1.0",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "eslint": "^8.57.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.4.2",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.8",
+    "vue-tsc": "^2.1.6"
+  }
+}

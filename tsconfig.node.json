@@ -1,0 +1,10 @@
+{
+  "extends": "@rjgfny/config/typescript/base",
+  "compilerOptions": {
+    "composite": true,
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true
+  },
+  "include": ["vite.config.ts"]
+}
