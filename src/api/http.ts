@@ -31,7 +31,7 @@ const adapter = createAxiosAdapter({
     },
   ],
   business: {
-    successCode: 0,
+    successCode: 200,
     getCode: (res) => (res as { code?: number }).code,
     getMessage: (res) => (res as { msg?: string }).msg,
   },
